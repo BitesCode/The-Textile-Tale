@@ -394,7 +394,7 @@
       ".footer-block--newsletter {margin-bottom: 8rem;}",
       ".footer__content-bottom {padding-top: 1rem;}",
       "footer {background: var(--primary-color) !important;}",
-      ".footer-block__heading {font-size: 2rem;}"
+      ".footer__blocks-wrapper .footer-block__heading {font-size: 2rem; color: #fff;}"
     ]
   }
 }
