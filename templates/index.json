@@ -76,10 +76,18 @@
             "slide_image": "shopify:\/\/shop_images\/slide1.jpg",
             "slide_title": "Exclusive Deals of Sharee Collection"
           }
+        },
+        "5f7c4e79-ef53-4eeb-8635-688ac89de4e3": {
+          "type": "column",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/slide2.jpg",
+            "slide_title": "Exclusive Deals of Sharee Collection"
+          }
         }
       },
       "block_order": [
-        "e28485a5-b2ca-4eba-9d17-2db588e511c5"
+        "e28485a5-b2ca-4eba-9d17-2db588e511c5",
+        "5f7c4e79-ef53-4eeb-8635-688ac89de4e3"
       ],
       "settings": {
       }
