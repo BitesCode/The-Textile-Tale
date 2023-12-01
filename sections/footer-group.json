@@ -1,1 +1,63 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","settings":{"color_scheme":"background-1","newsletter_enable":true,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":false,"margin_top":0,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "e49f310f-af06-48ad-9cee-14d5760747ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-ttt.png",
+            "image_width": 100,
+            "alignment": "center"
+          }
+        },
+        "286ef34e-ae9f-4a70-91da-6c1ffa300be1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help & Information",
+            "menu": "footer"
+          }
+        },
+        "57ec2333-d7f7-4c80-a77a-9b7950788b0a": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "0add773b-ccaa-4eb4-9931-c48343edaf9f": {
+          "type": "text",
+          "settings": {
+            "heading": "Get In Touch",
+            "subtext": "<p><a>(480) 555-0103<\/a><\/p><p><a>debra.holt@example.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e49f310f-af06-48ad-9cee-14d5760747ba",
+        "286ef34e-ae9f-4a70-91da-6c1ffa300be1",
+        "57ec2333-d7f7-4c80-a77a-9b7950788b0a",
+        "0add773b-ccaa-4eb4-9931-c48343edaf9f"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
