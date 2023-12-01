@@ -3,15 +3,14 @@
     --dark-color: #000;
     --white-color: #fff;
     --hover-color: #bd8523;
-
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
-
 body {
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Playfair Display', serif; */
     overflow-x: hidden;
+    font-size: 1rem;
 }
 
 h1,
@@ -20,6 +19,10 @@ h3,
 h4,
 h5 {
     font-family: 'Playfair Display', serif;
+}
+
+a {
+    font-size: 1.5rem;
 }
 
 .btn-primary {
@@ -34,7 +37,6 @@ h5 {
     align-items: center;
     gap: 0.6rem;
 }
-
 
 .btn-primary:hover {
     color: #fff;
@@ -105,7 +107,6 @@ h5 {
 .header-section li.action-list a:hover {
     color: var(--hover-color);
 }
-
 
 a.navbar-brand img {
     width: 100%;
@@ -360,7 +361,7 @@ ul.footer-links {
     padding: 0;
 }
 
-ul.footer-links li{
+ul.footer-links li {
     margin: 1rem 0;
 }
 
@@ -375,10 +376,8 @@ ul.footer-links a {
     font-weight: bold;
 }
 
-
 @media only screen and (max-width: 768px) {
     .btn-primary {
         padding: 0.7rem 1rem;
     }
-
 }
