@@ -384,5 +384,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "header.header.header--top-left {display: flex; justify-content: space-between;}"
+    ]
   }
 }
