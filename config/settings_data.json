@@ -392,7 +392,7 @@
       ".header__icon .icon {color: var(--primary-color);}",
       ".footer__content-top.page-width {display: flex; flex-direction: column-reverse;}",
       ".footer-block--newsletter {margin-bottom: 8rem;}",
-      ".footer__content-bottom {padding: 0;}"
+      ".footer__content-bottom {padding-top: 1rem;}"
     ]
   }
 }
