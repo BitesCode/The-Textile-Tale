@@ -1,3 +1,4 @@
+
 <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 col-12 p-0">
@@ -5,48 +6,27 @@
           <div id="carouselExampleIndicators" class="carousel slide"
             data-bs-ride="carousel">
             <div class="carousel-indicators">
-              <button type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
-              <button type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2" aria-label="Slide 3"></button>
+              {% for slide in section.settings.slides %}
+                <button type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="{{ forloop.index0 }}"
+                  {% if forloop.first %}class="active"{% endif %}
+                  aria-current="{{ forloop.first }}"
+                  aria-label="Slide {{ forloop.index }}"></button>
+              {% endfor %}
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/banner/slide1.jpg" class="d-block w-100"
-                  alt="...">
-                <div class="carousel-caption">
-                  <h5>Exclusive Deals of <br>
-                    Sharee Collection</h5>
-                  <p>Explore different categories. Find the best deals.</p>
-                  <button class="btn btn-primary">Shop Now</button>
+              {% for slide in section.settings.slides %}
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                  <img src="{{ slide.image | img_url: 'master' }}" class="d-block w-100"
+                    alt="{{ slide.alt }}">
+                  <div class="carousel-caption">
+                    <h5>{{ slide.title }}</h5>
+                    <p>{{ slide.description }}</p>
+                    <a href="{{ slide.button_link }}" class="btn btn-primary">{{ slide.button_text }}</a>
+                  </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/banner/slide2.jpg" class="d-block w-100"
-                  alt="...">
-                <div class="carousel-caption">
-                  <h5>Exclusive Deals of <br>
-                    Sharee Collection</h5>
-                  <p>Explore different categories. Find the best deals.</p>
-                  <button class="btn btn-primary">Shop Now</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/banner/slide3.jpg" class="d-block w-100"
-                  alt="...">
-                <div class="carousel-caption">
-                  <h5>Exclusive Deals of <br>
-                    Sharee Collection</h5>
-                  <p>Explore different categories. Find the best deals.</p>
-                  <button class="btn btn-primary">Shop Now</button>
-                </div>
-              </div>
+              {% endfor %}
             </div>
             <button class="carousel-control-prev" type="button"
               data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -62,13 +42,54 @@
         </section>
       </div>
     </div>
-  </div>
-
+</div>
 
 {% schema %}
 {
-  "name": "ttt banner Section",
-  "settings": [],
+  "name": "TTT Banner Section",
+  "settings": [
+    {
+      "type": "group",
+      "name": "Banner Slides",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image"
+        },
+        {
+          "type": "text",
+          "label": "Alt Text",
+          "id": "alt",
+          "default": "Image Alt Text"
+        },
+        {
+          "type": "text",
+          "label": "Title",
+          "id": "title",
+          "default": "Slide Title"
+        },
+        {
+          "type": "textarea",
+          "label": "Description",
+          "id": "description",
+          "default": "Slide Description"
+        },
+        {
+          "type": "text",
+          "label": "Button Text",
+          "id": "button_text",
+          "default": "Shop Now"
+        },
+        {
+          "type": "url",
+          "label": "Button Link",
+          "id": "button_link",
+          "default": "#"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
       "name": "ttt-header-banner"
