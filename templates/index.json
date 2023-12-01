@@ -27,13 +27,15 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/slide1.jpg",
+        "image_2": "shopify:\/\/shop_images\/slide2.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
-        "image_behavior": "none",
+        "image_behavior": "zoom-in",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
