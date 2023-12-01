@@ -387,7 +387,9 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "header.header.header--top-left {display: flex; justify-content: space-between;}"
+      "header.header.header--top-left {display: flex; justify-content: space-between;}",
+      "header .list-menu__item {font-weight: bold;}",
+      ".header__icon .icon {color: var(--primary-color);}"
     ]
   }
 }
