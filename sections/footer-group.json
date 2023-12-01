@@ -8,8 +8,8 @@
         "e49f310f-af06-48ad-9cee-14d5760747ba": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-ttt.png",
-            "image_width": 100,
+            "image": "shopify:\/\/shop_images\/footer-logo.png",
+            "image_width": 130,
             "alignment": "center"
           }
         },
