@@ -17,14 +17,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Help & Information",
-            "menu": "footer"
+            "menu": "help-information"
           }
         },
         "57ec2333-d7f7-4c80-a77a-9b7950788b0a": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": "footer"
+            "menu": "quick-links"
           }
         },
         "0add773b-ccaa-4eb4-9931-c48343edaf9f": {
