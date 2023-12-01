@@ -1,5 +1,30 @@
 {
   "sections": {
+    "0f3b32e6-e78c-406d-817b-35300f6ec747": {
+      "type": "ttt-slider-banner",
+      "blocks": {
+        "e28485a5-b2ca-4eba-9d17-2db588e511c5": {
+          "type": "column",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/slide1.jpg",
+            "slide_title": "Exclusive Deals of Sharee Collection"
+          }
+        },
+        "5f7c4e79-ef53-4eeb-8635-688ac89de4e3": {
+          "type": "column",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/slide2.jpg",
+            "slide_title": "Exclusive Deals of Sharee Collection"
+          }
+        }
+      },
+      "block_order": [
+        "e28485a5-b2ca-4eba-9d17-2db588e511c5",
+        "5f7c4e79-ef53-4eeb-8635-688ac89de4e3"
+      ],
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -26,16 +51,17 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/slide1.jpg",
         "image_2": "shopify:\/\/shop_images\/slide2.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
-        "image_behavior": "zoom-in",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -68,36 +94,11 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "0f3b32e6-e78c-406d-817b-35300f6ec747": {
-      "type": "ttt-slider-banner",
-      "blocks": {
-        "e28485a5-b2ca-4eba-9d17-2db588e511c5": {
-          "type": "column",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/slide1.jpg",
-            "slide_title": "Exclusive Deals of Sharee Collection"
-          }
-        },
-        "5f7c4e79-ef53-4eeb-8635-688ac89de4e3": {
-          "type": "column",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/slide2.jpg",
-            "slide_title": "Exclusive Deals of Sharee Collection"
-          }
-        }
-      },
-      "block_order": [
-        "e28485a5-b2ca-4eba-9d17-2db588e511c5",
-        "5f7c4e79-ef53-4eeb-8635-688ac89de4e3"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
+    "0f3b32e6-e78c-406d-817b-35300f6ec747",
     "image_banner",
-    "featured_collection",
-    "0f3b32e6-e78c-406d-817b-35300f6ec747"
+    "featured_collection"
   ]
 }
