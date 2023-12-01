@@ -393,7 +393,8 @@
       ".footer__content-top.page-width {display: flex; flex-direction: column-reverse;}",
       ".footer-block--newsletter {margin-bottom: 8rem;}",
       ".footer__content-bottom {padding-top: 1rem;}",
-      "footer {background: var(--primary-color) !important;}"
+      "footer {background: var(--primary-color) !important;}",
+      ".footer-block__heading {font-size: 2rem;}"
     ]
   }
 }
