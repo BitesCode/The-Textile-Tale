@@ -49,10 +49,46 @@
             "category_title": "Lanes of Lucknow",
             "category_url": "shopify:\/\/collections\/all"
           }
+        },
+        "538fe61d-60c8-4108-b5af-57707c92eff2": {
+          "type": "column",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/2.webp",
+            "category_title": "Kolkata Kotha",
+            "category_url": ""
+          }
+        },
+        "6ebf1ae6-9f1b-4778-9841-13665b6eb8bc": {
+          "type": "column",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/3.webp",
+            "category_title": "Vintage Varanasi",
+            "category_url": ""
+          }
+        },
+        "764f22fc-9052-4568-bfcc-b28312718390": {
+          "type": "column",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/4.webp",
+            "category_title": "Jewels of Jaipur",
+            "category_url": ""
+          }
+        },
+        "2ec54d65-402a-4502-8eb0-6327cd151bb9": {
+          "type": "column",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/5.jpg",
+            "category_title": "Mehfil-e-Shaam",
+            "category_url": ""
+          }
         }
       },
       "block_order": [
-        "9a0a6012-7757-4037-b93c-1d8b7778b028"
+        "9a0a6012-7757-4037-b93c-1d8b7778b028",
+        "538fe61d-60c8-4108-b5af-57707c92eff2",
+        "6ebf1ae6-9f1b-4778-9841-13665b6eb8bc",
+        "764f22fc-9052-4568-bfcc-b28312718390",
+        "2ec54d65-402a-4502-8eb0-6327cd151bb9"
       ],
       "settings": {
       }
