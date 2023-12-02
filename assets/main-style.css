@@ -387,6 +387,13 @@ p.testimonial-name {
     transition: opacity 0s 2.6s;
 }
 
+section#shopify-section-template--21599015141662__featured_collection h2.title {
+    font-size: 4rem;
+    text-align: center;
+    color: var(--primary-color);
+    font-family: 'Playfair Display', serif;
+}
+
 footer.footer-section {
     background: var(--primary-color);
     padding: 4.5rem;
