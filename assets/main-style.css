@@ -407,17 +407,22 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     border-radius: 4px;
 }
 
+.center.collection__view-all a {
+    margin-top: 4rem;
+    background: var(--primary-color);
+    border-radius: 4px;
+}
+
+.quick-add.no-js-hidden button:hover,
+.center.collection__view-all a:hover {
+    background: var(--hover-color);
+}
+
 .quick-add.no-js-hidden button:after,
 .quick-add.no-js-hidden button:before,
 .center.collection__view-all a::after,
 .center.collection__view-all a:before {
     box-shadow: none !important;
-}
-
-.center.collection__view-all a {
-    margin-top: 4rem;
-    background: var(--primary-color);
-    border-radius: 4px;
 }
 
 footer.footer-section {
