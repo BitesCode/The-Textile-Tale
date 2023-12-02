@@ -482,4 +482,21 @@ ul.footer-links a {
     .btn-primary {
         padding: 0.7rem 1rem;
     }
+    .carousel-caption h5 {
+        font-size: 1.7rem;
+    }
+    .card.left-card-product .row.align-items-center {
+        gap: 3rem;
+    }
+    .card.my-3.testimonial-card>div>.col-md-2 {
+        display: flex;
+        justify-content: center;
+    }
+    p.testimonial-text {
+        font-size: 2rem;
+        text-align: center;
+    }
+    p.testimonial-name {
+        text-align: center;
+    }
 }
