@@ -433,6 +433,21 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     box-shadow: none !important;
 }
 
+.card.card--standard.card--media .card__information a {
+    font-size: 2rem !important;
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.card.card--standard.card--media .card-information .price {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.cart-count-bubble {
+    background: #eda323;
+}
+
 footer.footer-section {
     background: var(--primary-color);
     padding: 4.5rem;
