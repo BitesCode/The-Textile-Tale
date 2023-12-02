@@ -466,7 +466,7 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     font-size: 2.5rem;
 }
 
-.footer-block--newsletter.scroll-trigger.animate--slide-in.container-fluid {
+.footer-block--newsletter.scroll-trigger.animate--slide-in {
     width: 100vw;
     margin-left: calc((100% - 100vw) / 2);
     background: #e39d24;
@@ -495,6 +495,7 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     width: 3.2rem !important;
     height: 3.3rem !important;
     border-radius: 100px;
+    color: #fff;
 }
 
 footer.footer-section {
