@@ -199,9 +199,9 @@ div#product-slider .card {
     position: relative;
     border: none;
     margin: 0.5rem;
-    height: 24rem !important;
     overflow: hidden;
     border-radius: 0.6rem;
+    height: fit-content !important;
 }
 
 div#product-slider .card-body {
@@ -225,6 +225,10 @@ div#product-slider .card-body .card-title {
     margin-bottom: 2rem;
     color: #fff;
     font-size: 2rem;
+}
+
+div#product-slider .glider-track {
+    align-items: center;
 }
 
 h1.title-heading {
