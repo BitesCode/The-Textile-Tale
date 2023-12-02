@@ -408,13 +408,21 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
 }
 
 .center.collection__view-all a {
-    margin-top: 4rem;
-    background: var(--primary-color);
+    margin-top: 4rem !important;
     border-radius: 4px;
+    color: var(--primary-color);
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    font-weight: bold;
+    padding: 0 4.7rem;
 }
 
-.quick-add.no-js-hidden button:hover,
 .center.collection__view-all a:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.quick-add.no-js-hidden button:hover {
     background: var(--hover-color);
 }
 
