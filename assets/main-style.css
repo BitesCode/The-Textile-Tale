@@ -392,6 +392,7 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     text-align: center;
     color: var(--primary-color);
     font-family: 'Playfair Display', serif;
+    margin-bottom: 5rem;
 }
 
 footer.footer-section {
