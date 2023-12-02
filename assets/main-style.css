@@ -452,6 +452,37 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     background: #eda323;
 }
 
+.footer-block--newsletter.scroll-trigger.animate--slide-in.container-fluid {
+    width: 100vw;
+    margin-left: calc((100% - 100vw) / 2);
+    background: #e39d24;
+    top: -65px;
+    position: relative;
+    padding: 9rem 0;
+    margin-bottom: 0;
+}
+
+.newsletter-form__field-wrapper .field,
+.newsletter-form__field-wrapper .field:after,
+.newsletter-form__field-wrapper .field:before {
+    box-shadow: none !important;
+}
+
+.newsletter-form__field-wrapper input {
+    border-radius: 4rem;
+}
+
+.newsletter-form__field-wrapper button svg {
+    padding: 0.6rem;
+    background: #e39d24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem !important;
+    height: 3.3rem !important;
+    border-radius: 100px;
+}
+
 footer.footer-section {
     background: var(--primary-color);
     padding: 4.5rem;
