@@ -1,16 +1,27 @@
 <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12 col-12 p-0">
-        <section class="banner-slider">
-         
-        <button type="button" data-bs-target="#carouselExampleIndicators" 
-        data-bs-slide-to="{{ forloop.index0 }}" 
-        {% if forloop.first %}class="active"{% endif %} aria-label="Slide {{ forloop.index1 }}"></button>
-            </div>
-            <div class="carousel-inner">
-                {% for block in section.blocks %}
-                <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <img src="{{ block.settings.slide_image | img_url: 'master' }}" class="d-block w-100"
+  <div class="row">
+    <div class="col-md-12 col-12 p-0">
+      <section class="banner-slider">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="{{ forloop.index0 }}"
+              {% if forloop.first %}
+              class="active"
+              {% endif %}
+              aria-label="Slide {{ forloop.index1 }}"></button>
+          </div>
+          <div class="carousel-inner">
+            {% for block in section.blocks %}
+              <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                <img
+                  src="{{ block.settings.slide_image | img_url: 'master' }}"
+                  class="d-block w-100"
                   alt="...">
                 <div class="carousel-caption">
                   <h5>{{ block.settings.slide_title }}</h5>
@@ -20,51 +31,58 @@
               </div>
             {% endfor %}
 
-            </div>
-
-
-            <button class="carousel-control-prev" type="button"
-              data-bs-target="#carouselExampleIndicators" data-bs-slide="{{ forloop.index0 }}">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button"
-              data-bs-target="#carouselExampleIndicators" data-bs-slide="{{ forloop.index0 }}">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-        </section>
-      </div>
+
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="{{ forloop.index0 }}">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="{{ forloop.index0 }}">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
     </div>
   </div>
+</div>
 
 
 {% schema %}
-{
-  "name": "ttt banner Section",
-  "max_blocks": 3,
-  "settings": [],
-  "blocks": [{
-    "type": "column",
-    "name": "slider",
-    "settings": [  
-        {
-           "type": "image_picker",
-           "id": "slide_image",
-           "label": "Image"
-         }, 
-         {
+  {
+    "name": "ttt banner Section",
+    "max_blocks": 3,
+    "settings": [],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "slider",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "slide_image",
+            "label": "Image"
+          }, {
             "type": "text",
-            "id":"slide_title",
-            "label":"Title"
-         }
+            "id": "slide_title",
+            "label": "Title"
+          }
         ]
-  }],
-  "presets": [
-    {
-      "name": "ttt-header-banner"
-    }
-  ]
-}
+      }
+    ],
+    "presets": [
+      {
+        "name": "ttt-header-banner"
+      }
+    ]
+  }
 {% endschema %}
