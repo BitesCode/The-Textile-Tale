@@ -125,12 +125,18 @@
       "type": "ttt-benefits-section",
       "settings": {
       }
+    },
+    "152d0ac6-ff99-45ca-8934-f14f21eb7725": {
+      "type": "ttt-testimonial-section",
+      "settings": {
+      }
     }
   },
   "order": [
     "0f3b32e6-e78c-406d-817b-35300f6ec747",
     "7c8bce3c-500e-4658-a5b2-db8757cb3c23",
     "featured_collection",
-    "70d68320-778c-4189-b12e-a44260713730"
+    "70d68320-778c-4189-b12e-a44260713730",
+    "152d0ac6-ff99-45ca-8934-f14f21eb7725"
   ]
 }
