@@ -314,6 +314,18 @@ p.price-text {
     font-size: 1.5rem;
 }
 
+.testimonial-section {
+    padding: 4rem 0;
+}
+
+.testimonial-section h1.title-heading {
+    font-size: 4rem;
+}
+
+.testimonial-section .subtext-heading {
+    font-size: 1.6rem;
+}
+
 .testimonial-image-container {
     width: 12rem;
     height: 12rem;
@@ -330,12 +342,12 @@ p.price-text {
 }
 
 p.testimonial-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 p.testimonial-name {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .testimonial-image-container::before {
