@@ -176,7 +176,7 @@ a.navbar-brand {
 .left-card-product {
     background: #eda323;
     color: #fff;
-    padding: 3rem;
+    padding: 4rem;
     border: none;
     border-radius: 0 1rem 1rem 0;
 }
@@ -191,13 +191,27 @@ a.navbar-brand {
     margin: 2.5rem 0;
 }
 
-div#product-slider .card {
+.left-card-product .btn.btn-secondary {
+    padding: 1rem 0.6rem;
+}
+
+
+/* div#product-slider .card {
     position: relative;
     border: none;
     margin: 0.5rem;
     height: 24rem !important;
     overflow: hidden;
     border-radius: 0.6rem;
+} */
+
+div#product-slider .card {
+    position: relative;
+    border: none;
+    margin: 0.5rem;
+    overflow: hidden;
+    border-radius: 0.6rem;
+    height: fit-content !important;
 }
 
 div#product-slider .card-body {
@@ -219,6 +233,8 @@ div#product-slider .card-body {
 
 div#product-slider .card-body .card-title {
     margin-bottom: 2rem;
+    color: #fff;
+    font-size: 2rem;
 }
 
 h1.title-heading {
