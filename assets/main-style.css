@@ -195,23 +195,13 @@ a.navbar-brand {
     padding: 1rem 0.6rem;
 }
 
-
-/* div#product-slider .card {
+div#product-slider .card {
     position: relative;
     border: none;
     margin: 0.5rem;
     height: 24rem !important;
     overflow: hidden;
     border-radius: 0.6rem;
-} */
-
-div#product-slider .card {
-    position: relative;
-    border: none;
-    margin: 0.5rem;
-    overflow: hidden;
-    border-radius: 0.6rem;
-    height: fit-content !important;
 }
 
 div#product-slider .card-body {
