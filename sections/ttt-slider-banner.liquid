@@ -8,14 +8,14 @@
           data-bs-ride="carousel">
           <div class="carousel-indicators">
             {% for block in section.blocks %}
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="{{ forloop.index0 }}"
-              {% if forloop.first %}
-              class="active"
-              {% endif %}
-              aria-label="Slide {{ forloop.index1 }}"></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="{{ forloop.index0 }}"
+                {% if forloop.first %}
+                class="active"
+                {% endif %}
+                aria-label="Slide {{ forloop.index1 }}"></button>
             {% endfor %}
           </div>
           <div class="carousel-inner">
@@ -27,8 +27,10 @@
                   alt="...">
                 <div class="carousel-caption">
                   <h5>{{ block.settings.slide_title }}</h5>
-                  <p>Explore different categories. Find the best deals.</p>
-                  <button class="btn btn-primary">Shop Now</button>
+                  <p>{{ block.settings.slide_subtext }}</p>
+                  <a href="">
+                    <button class="btn btn-primary">Shop Now</button>
+                  </a>
                 </div>
               </div>
             {% endfor %}
@@ -78,6 +80,15 @@
             "type": "text",
             "id": "slide_title",
             "label": "Title"
+          }, {
+            "type": "text",
+            "id": "slide_subtext",
+            "label": "Sub Title"
+          }, {
+            "type": "url",
+            "id": "slide_link",
+            "label": "Link",
+            "info": "Enter the URL for the link"
           }
         ]
       }
