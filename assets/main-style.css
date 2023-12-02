@@ -462,6 +462,20 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     margin-bottom: 0;
 }
 
+.footer-block__newsletter h2 {
+    font-size: 2.5rem;
+}
+
+.footer-block--newsletter.scroll-trigger.animate--slide-in.container-fluid {
+    width: 100vw;
+    margin-left: calc((100% - 100vw) / 2);
+    background: #e39d24;
+    top: -65px;
+    position: relative;
+    padding: 9rem 0;
+    margin-bottom: 0;
+}
+
 .newsletter-form__field-wrapper .field,
 .newsletter-form__field-wrapper .field:after,
 .newsletter-form__field-wrapper .field:before {
