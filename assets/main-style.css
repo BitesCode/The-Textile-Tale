@@ -395,6 +395,22 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     margin-bottom: 5rem;
 }
 
+.card.card--standard.card--media {
+    padding: 1.3rem;
+    border-radius: 6px;
+    border-color: #eda3234f;
+}
+
+.quick-add.no-js-hidden button {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.quick-add.no-js-hidden button:after,
+.quick-add.no-js-hidden button:before {
+    box-shadow: none !important;
+}
+
 footer.footer-section {
     background: var(--primary-color);
     padding: 4.5rem;
