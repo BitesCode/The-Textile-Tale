@@ -299,23 +299,7 @@
                     {%- endif -%}
                     {%- render 'loading-spinner' -%}
                   </button>
-
-                  <div class="product-form__buttons">
-          <button
-                  type="submit"
-                  name="add"
-                  class="product-form__submit button button--full-width button--secondary"
-                  {% if product_card_product.selected_or_first_available_variant.available == false %}disabled{% endif %}
-                  >
-            {%- if product_card_product.selected_or_first_available_variant.available -%}
-            {{ 'products.product.add_to_cart' | t }}
-            
-            {%- endif -%}
-            
-          </button>
-          
-        </div>
-        
+                  
                 {%- endform -%}
               </product-form>
             {%- endif -%}
