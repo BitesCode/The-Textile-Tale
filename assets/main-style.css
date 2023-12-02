@@ -23,13 +23,14 @@ h5 {
 
 a {
     font-size: 1.5rem !important;
+    text-decoration: none;
 }
 
 .btn-primary {
     color: #fff;
     background-color: var(--primary-color);
     border-color: var(--primary-color);
-    font-size: 1rem;
+    font-size: 1.6rem;
     padding: 0.7rem 2.5rem;
     border-radius: 0.3rem;
     display: flex;
@@ -131,7 +132,16 @@ a.navbar-brand {
 }
 
 .carousel-caption h5 {
-    font-size: 3rem;
+    color: #fff;
+    font-size: 4.5rem;
+    word-wrap: break-word;
+    width: 50rem;
+    margin-bottom: 1.2rem;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+    color: #fff;
 }
 
 .carousel-indicators [data-bs-target] {
