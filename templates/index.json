@@ -41,6 +41,19 @@
     },
     "7c8bce3c-500e-4658-a5b2-db8757cb3c23": {
       "type": "ttt-category-slider",
+      "blocks": {
+        "9a0a6012-7757-4037-b93c-1d8b7778b028": {
+          "type": "column",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/1.jpg",
+            "category_title": "Lanes of Lucknow",
+            "category_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "9a0a6012-7757-4037-b93c-1d8b7778b028"
+      ],
       "settings": {
       }
     },
