@@ -49,10 +49,19 @@
             "category_title": "Lanes of Lucknow",
             "category_url": "shopify:\/\/collections\/all"
           }
+        },
+        "538fe61d-60c8-4108-b5af-57707c92eff2": {
+          "type": "column",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/2.webp",
+            "category_title": "Kolkata Kotha",
+            "category_url": ""
+          }
         }
       },
       "block_order": [
-        "9a0a6012-7757-4037-b93c-1d8b7778b028"
+        "9a0a6012-7757-4037-b93c-1d8b7778b028",
+        "538fe61d-60c8-4108-b5af-57707c92eff2"
       ],
       "settings": {
       }
