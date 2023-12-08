@@ -453,8 +453,8 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
 }
 
 .customer.login {
-    max-width: 90%;
-    padding: 4rem;
+    max-width: 90% !important;
+    padding: 6rem 4rem;
 }
 
 .footer-block--newsletter.scroll-trigger.animate--slide-in.container-fluid {
