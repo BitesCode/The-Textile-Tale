@@ -455,10 +455,10 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
 .footer-block--newsletter.scroll-trigger.animate--slide-in.container-fluid {
     width: 100vw;
     margin-left: calc((100% - 100vw) / 2);
-    background: #e39d24;
+    background: #f9e1b8;
     top: -65px;
     position: relative;
-    padding: 9rem 0;
+    padding: 2rem 0;
     margin-bottom: 0;
 }
 
