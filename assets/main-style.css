@@ -457,6 +457,20 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     padding: 6rem 4rem;
 }
 
+.right-image-container {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.right-image-container img {
+    position: absolute;
+    left: -510px;
+    bottom: -16px;
+}
+
 .footer-block--newsletter.scroll-trigger.animate--slide-in.container-fluid {
     width: 100vw;
     margin-left: calc((100% - 100vw) / 2);
