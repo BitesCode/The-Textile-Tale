@@ -587,14 +587,25 @@ a.pagination__item.link {
     font-weight: 700;
 }
 
-.cart__ctas button {
+.cart__ctas button,
+button.button.button--primary.button--full-width {
     background: #eda323;
     border-radius: 100px;
 }
 
 .cart__ctas button::after,
-.cart__ctas button::before {
+.cart__ctas button::before,
+button.button.button--primary.button--full-width::after,
+button.button.button--primary.button--full-width::before,
+a#cart-notification-button::after,
+a#cart-notification-button::before {
     display: none;
+}
+
+a#cart-notification-button {
+    border-radius: 100px !important;
+    border: 1px solid #eda323;
+    color: #f9e1b8;
 }
 
 footer.footer-section {
