@@ -581,6 +581,22 @@ a.pagination__item.link {
     display: none !important;
 }
 
+.cart__items th.caption-with-letter-spacing {
+    color: #000;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.cart__ctas button {
+    background: #eda323;
+    border-radius: 100px;
+}
+
+.cart__ctas button::after,
+.cart__ctas button::before {
+    display: none;
+}
+
 footer.footer-section {
     background: var(--primary-color);
     padding: 4.5rem;
