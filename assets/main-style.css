@@ -560,6 +560,27 @@ div#shopify-section-template--21599014879518__main h1.title.title--primary.inlin
     text-align: center;
 }
 
+.pagination__list {
+    width: 100%;
+    justify-content: end;
+}
+
+a.pagination__item.pagination__item--current.light {
+    border-radius: 3px;
+    background: #eda323;
+    color: #fff;
+}
+
+a.pagination__item.link {
+    border: 1px solid #eda323;
+    border-radius: 3px;
+}
+
+.pagination__item--current:after,
+.pagination__item:hover:after {
+    display: none;
+}
+
 footer.footer-section {
     background: var(--primary-color);
     padding: 4.5rem;
