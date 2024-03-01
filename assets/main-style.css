@@ -543,6 +543,14 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     color: #fff;
 }
 
+div#shopify-section-template--21599014879518__main {
+    padding: 5rem;
+}
+
+ul.collection-list.grid.grid--3-col-desktop.grid--2-col-tablet-down>li:nth-child(1) {
+    display: none;
+}
+
 footer.footer-section {
     background: var(--primary-color);
     padding: 4.5rem;
