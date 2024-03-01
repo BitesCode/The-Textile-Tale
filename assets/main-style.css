@@ -605,7 +605,7 @@ a#cart-notification-button::before {
 a#cart-notification-button {
     border-radius: 100px !important;
     border: 1px solid #eda323;
-    color: #f9e1b8;
+    color: #eda323;
 }
 
 footer.footer-section {
@@ -636,6 +636,10 @@ ul.footer-links a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+}
+
+.footer__copyright.caption {
+    color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
