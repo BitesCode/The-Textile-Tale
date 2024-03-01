@@ -562,7 +562,7 @@ div#shopify-section-template--21599014879518__main h1.title.title--primary.inlin
 
 .pagination__list {
     width: 100%;
-    justify-content: end;
+    justify-content: end !important;
 }
 
 a.pagination__item.pagination__item--current.light {
@@ -578,7 +578,7 @@ a.pagination__item.link {
 
 .pagination__item--current:after,
 .pagination__item:hover:after {
-    display: none;
+    display: none !important;
 }
 
 footer.footer-section {
@@ -635,5 +635,8 @@ ul.footer-links a {
     .customer.login .left-login-form {
         margin-bottom: 3rem;
         padding: 2rem;
+    }
+    .pagination__list {
+        justify-content: center !important;
     }
 }
