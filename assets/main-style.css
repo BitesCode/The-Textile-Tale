@@ -457,7 +457,10 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     padding: 6rem 4rem;
 }
 
-.customer.login .left-login-form {}
+.customer.login .left-login-form {
+    width: 100%;
+    padding: 7rem;
+}
 
 .right-image-container {
     width: 100%;
