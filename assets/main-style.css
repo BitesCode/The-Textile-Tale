@@ -556,6 +556,10 @@ div#shopify-section-template--21599014879518__main .card.card--standard.card--me
     border-width: 0.2rem;
 }
 
+div#shopify-section-template--21599014879518__main h1.title.title--primary.inline-richtext.scroll-trigger.animate--fade-in {
+    text-align: center;
+}
+
 footer.footer-section {
     background: var(--primary-color);
     padding: 4.5rem;
