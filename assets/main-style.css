@@ -462,6 +462,19 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     padding: 7rem;
 }
 
+.customer button {
+    background: #eda323;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.customer button:after,
+.customer button::before {
+    display: none;
+}
+
 .right-image-container {
     width: 100%;
     height: 600px;
@@ -572,5 +585,9 @@ ul.footer-links a {
     }
     p.testimonial-name {
         text-align: center;
+    }
+    .customer.login .left-login-form {
+        margin-bottom: 3rem;
+        padding: 2rem;
     }
 }
