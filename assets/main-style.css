@@ -457,10 +457,7 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     padding: 6rem 4rem;
 }
 
-.customer.login .left-login-form {
-    display: flex;
-    align-items: center;
-}
+.customer.login .left-login-form {}
 
 .right-image-container {
     width: 100%;
