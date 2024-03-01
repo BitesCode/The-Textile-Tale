@@ -551,6 +551,11 @@ ul.collection-list.grid.grid--3-col-desktop.grid--2-col-tablet-down>li:nth-child
     display: none;
 }
 
+div#shopify-section-template--21599014879518__main .card.card--standard.card--media {
+    border-color: #eda3234f;
+    border-width: 0.2rem;
+}
+
 footer.footer-section {
     background: var(--primary-color);
     padding: 4.5rem;
