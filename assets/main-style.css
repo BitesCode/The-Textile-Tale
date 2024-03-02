@@ -609,11 +609,11 @@ a#cart-notification-button {
 }
 
 .product-form__input input[type=radio]+label {
-    border: 1px solid #eda323;
+    border: 1px solid #eda323 !important;
 }
 
 .product-form__input input[type=radio]:checked+label {
-    background-color: #eda323;
+    background-color: #eda323 !important;
 }
 
 .product-form__buttons {
@@ -629,6 +629,11 @@ button.shopify-payment-button__button.shopify-payment-button__button--unbranded.
 
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw {
     background: #eda323;
+    border-radius: 100px;
+}
+
+button#ProductSubmitButton-template--21599014945054__main::after,
+button#ProductSubmitButton-template--21599014945054__main::before {
     border-radius: 100px;
 }
 
