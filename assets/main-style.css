@@ -629,6 +629,11 @@ a#cart-notification-button {
     gap: 1rem;
 }
 
+.product__description.rte.quick-add-hidden {
+    font-size: 1.6rem;
+    color: #000;
+}
+
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw::after,
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw::before {
     display: none;
