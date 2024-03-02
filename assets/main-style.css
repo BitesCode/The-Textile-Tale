@@ -39,7 +39,14 @@ a {
     gap: 0.6rem;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle,
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
     color: #fff;
     background-color: var(--hover-color);
     border-color: var(--hover-color);
