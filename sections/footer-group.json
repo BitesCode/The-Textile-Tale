@@ -1,63 +1,64 @@
 {
-  "name": "t:sections.footer.name",
-  "type": "footer",
-  "sections": {
-    "footer": {
-      "type": "footer",
-      "blocks": {
-        "e49f310f-af06-48ad-9cee-14d5760747ba": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/footer-logo.png",
-            "image_width": 130,
-            "alignment": "center"
-          }
-        },
-        "286ef34e-ae9f-4a70-91da-6c1ffa300be1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Help & Information",
-            "menu": "help-information"
-          }
-        },
-        "57ec2333-d7f7-4c80-a77a-9b7950788b0a": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "quick-links"
-          }
-        },
-        "0add773b-ccaa-4eb4-9931-c48343edaf9f": {
-          "type": "text",
-          "settings": {
-            "heading": "Get In Touch",
-            "subtext": "<p><a>(480) 555-0103<\/a><\/p><p>thetextiletale@gmail.com<\/p>"
-          }
+    "name": "t:sections.footer.name",
+    "type": "footer",
+    "sections": {
+        "footer": {
+            "type": "footer",
+            "blocks": {
+                "e49f310f-af06-48ad-9cee-14d5760747ba": {
+                    "type": "image",
+                    "settings": {
+                        "image": "shopify:\/\/shop_images\/footer-logo.png",
+                        "image_width": 130,
+                        "alignment": "center",
+                        "subtext": "<p><a>(480) 555-0103<\/a><\/p><p>thetextiletale@gmail.com<\/p>"
+                    }
+                },
+                "286ef34e-ae9f-4a70-91da-6c1ffa300be1": {
+                    "type": "link_list",
+                    "settings": {
+                        "heading": "Help & Information",
+                        "menu": "help-information"
+                    }
+                },
+                "57ec2333-d7f7-4c80-a77a-9b7950788b0a": {
+                    "type": "link_list",
+                    "settings": {
+                        "heading": "Quick links",
+                        "menu": "quick-links"
+                    }
+                },
+                "0add773b-ccaa-4eb4-9931-c48343edaf9f": {
+                    "type": "text",
+                    "settings": {
+                        "heading": "Get In Touch",
+                        "subtext": "<p><a>(480) 555-0103<\/a><\/p><p>thetextiletale@gmail.com<\/p>"
+                    }
+                }
+            },
+            "block_order": [
+                "e49f310f-af06-48ad-9cee-14d5760747ba",
+                "286ef34e-ae9f-4a70-91da-6c1ffa300be1",
+                "57ec2333-d7f7-4c80-a77a-9b7950788b0a",
+                "0add773b-ccaa-4eb4-9931-c48343edaf9f"
+            ],
+            "settings": {
+                "color_scheme": "background-1",
+                "newsletter_enable": true,
+                "newsletter_heading": "Subscribe to our emails",
+                "enable_follow_on_shop": true,
+                "show_social": true,
+                "enable_country_selector": true,
+                "enable_language_selector": false,
+                "payment_enable": false,
+                "show_policy": false,
+                "margin_top": 0,
+                "padding_top": 36,
+                "padding_bottom": 20
+            }
         }
-      },
-      "block_order": [
-        "e49f310f-af06-48ad-9cee-14d5760747ba",
-        "286ef34e-ae9f-4a70-91da-6c1ffa300be1",
-        "57ec2333-d7f7-4c80-a77a-9b7950788b0a",
-        "0add773b-ccaa-4eb4-9931-c48343edaf9f"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
-        "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": false,
-        "payment_enable": false,
-        "show_policy": false,
-        "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 20
-      }
-    }
-  },
-  "order": [
-    "footer"
-  ]
+    },
+    "order": [
+        "footer"
+    ]
 }
