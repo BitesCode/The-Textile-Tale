@@ -135,7 +135,7 @@ a.navbar-brand {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #0000007d;
+    background: #00000033;
     gap: .7rem;
 }
 
@@ -228,7 +228,7 @@ div#product-slider .card-body {
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    background: #0000004d;
+    background: #0000002b;
     padding-bottom: 2.8rem;
 }
 
