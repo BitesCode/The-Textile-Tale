@@ -683,6 +683,25 @@ ul.footer-links a {
     color: #fff;
 }
 
+.footer-block__details-content.footer-block-image.center {
+    justify-content: start;
+}
+
+ul.list-unstyled.list-social.footer__list-social {
+    justify-content: start;
+}
+
+li.list-social__item {
+    background: #fff;
+    border-radius: 100px;
+    margin: 0.3rem;
+}
+
+a.link.list-social__link {
+    color: #eda323 !important;
+    padding: 0.3rem;
+}
+
 @media only screen and (max-width: 768px) {
     .btn-primary {
         padding: 0.7rem 1rem;
