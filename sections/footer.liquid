@@ -131,7 +131,7 @@
                         {%- render 'social-icons', class: 'footer__list-social' -%}
                       {%- endif -%}
                     </div>
-                    <div>asd</div>
+                    
                   {%- when 'image' -%}
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                       {%- if block.settings.image != blank -%}
@@ -149,7 +149,9 @@
                             height="{{ block.settings.image.height }}"
                           >
                         </div>
-                    <div>asd</div>
+                        {%- if section.settings.show_social and has_social_icons -%}
+                          {%- render 'social-icons', class: 'footer__list-social' -%}
+                        {%- endif -%}
 
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
