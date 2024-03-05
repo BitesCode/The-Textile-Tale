@@ -10,8 +10,7 @@
                     "settings": {
                         "image": "shopify:\/\/shop_images\/footer-logo.png",
                         "image_width": 130,
-                        "alignment": "center",
-                        "subtext": "<p><a>(480) 555-0103<\/a><\/p><p>thetextiletale@gmail.com<\/p>"
+                        "alignment": "center"
                     }
                 },
                 "286ef34e-ae9f-4a70-91da-6c1ffa300be1": {
