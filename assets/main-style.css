@@ -706,6 +706,20 @@ a.link.list-social__link {
     padding: 0.3rem;
 }
 
+h2.footer-block__heading.inline-richtext {
+    position: relative;
+}
+
+.footer__blocks-wrapper h2.footer-block__heading.inline-richtext::after {
+    content: '';
+    background: #fff;
+    width: 32%;
+    height: 1.5px;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+}
+
 @media only screen and (max-width: 768px) {
     .btn-primary {
         padding: 0.7rem 1rem;
