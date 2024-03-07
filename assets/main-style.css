@@ -522,7 +522,8 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
 }
 
 .footer-block__newsletter h2 {
-    font-size: 1.8rem;
+    font-size: 3.5rem;
+    font-weight: 600;
 }
 
 .footer-block--newsletter.scroll-trigger.animate--slide-in {
