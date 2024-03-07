@@ -132,7 +132,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "best-seller",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -155,7 +155,7 @@
     "featured_collection_GHFUdp": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-size: 4rem !important; text-align: center !important; color: var(--primary-color) !important; font-family: 'Playfair Display', serif !important; margin-bottom: 5rem !important;}"
+        "h2 {font-size: 4rem !important; text-align: center !important; color: var(--primary-color) !important; font-family: \"Playfair Display\", serif !important; margin-bottom: 5rem !important;}"
       ],
       "settings": {
         "title": "Featured products",
