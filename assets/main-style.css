@@ -505,11 +505,12 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     border-radius: 2rem;
 }
 
-.right-image-container img {
+
+/* .right-image-container img {
     position: absolute;
     left: -510px;
     bottom: -16px;
-}
+} */
 
 .footer-block--newsletter.scroll-trigger.animate--slide-in.container-fluid {
     width: 100vw;
