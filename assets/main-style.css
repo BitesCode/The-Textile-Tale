@@ -87,12 +87,12 @@ a {
 
 .header-section div#navbarNav {
     justify-content: center;
-    font-weight: 600;
+    font-weight: 400;
     align-items: center;
 }
 
 .header__menu-item span {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.4rem;
     color: #000;
 }
@@ -523,7 +523,7 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
 
 .footer-block__newsletter h2 {
     font-size: 3.5rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .footer-block--newsletter.scroll-trigger.animate--slide-in {
