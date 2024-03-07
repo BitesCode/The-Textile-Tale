@@ -102,7 +102,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "new-arrival",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -133,7 +133,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "best-seller",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -155,7 +155,7 @@
     "featured_collection_GHFUdp": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-size: 4rem !important; text-align: center !important; color:#000 !important; font-family: \"Playfair Display\", serif !important; margin-bottom: 5rem !important;}"
+        "h2 {font-size: 4rem !important; text-align: center !important; color: #000 !important; font-family: \"Playfair Display\", serif !important; margin-bottom: 5rem !important;}"
       ],
       "settings": {
         "title": "Featured products",
