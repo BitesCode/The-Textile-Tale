@@ -123,6 +123,9 @@
     },
     "featured_collection_kYPDeE": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-size: 4rem !important; text-align: center !important; color: var(--primary-color) !important; font-family: 'Playfair Display', serif !important; margin-bottom: 5rem !important;}"
+      ],
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
