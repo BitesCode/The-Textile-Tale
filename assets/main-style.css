@@ -9,7 +9,7 @@
 body {
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Playfair Display', serif; */
-    font-family: "Nanum Gothic", sans-serif;
+    font-family: "Futura", sans-serif;
     overflow-x: hidden;
     font-size: 1rem;
 }
@@ -19,7 +19,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Playfair Display', serif;
+    font-family: "Futura", sans-serif;
 }
 
 a {
