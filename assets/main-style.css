@@ -675,6 +675,21 @@ a#cart-notification-button {
     display: none;
 }
 
+.contact-us .col-md-6.col-12.left-section h1.title {
+    font-weight: 700;
+    margin: 1.6rem 0;
+}
+
+.contact-us .right-content h1.small-heading {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contact-us .left-icon {
+    font-size: 4rem;
+    color: #eda323;
+}
+
 
 /* about us page  */
 
