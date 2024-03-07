@@ -409,7 +409,6 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
     font-size: 4rem;
     text-align: center;
     color: #000;
-    font-family: 'Playfair Display', serif;
     margin-bottom: 5rem;
 }
 
@@ -452,7 +451,7 @@ section#shopify-section-template--21599015141662__featured_collection h2.title {
 }
 
 .card.card--standard.card--media .card__information a {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     text-decoration: none !important;
     color: #000 !important;
 }
