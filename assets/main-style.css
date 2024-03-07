@@ -644,6 +644,18 @@ a#cart-notification-button {
     padding: 0 20rem;
 }
 
+.page-width.page-width--narrow.section-template--21599015010590__main-padding p {
+    font-size: 1.4rem;
+    color: #000;
+    margin: 3rem 0;
+}
+
+.page-width.page-width--narrow.section-template--21599015010590__main-padding h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
 
 /* about us page  */
 
