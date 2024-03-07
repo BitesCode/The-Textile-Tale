@@ -124,7 +124,7 @@
     "featured_collection_kYPDeE": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-size: 4rem !important; text-align: center !important; color: #000 !important; font-family: \"Playfair Display\", serif !important; margin-bottom: 5rem !important;}"
+        "h2 {font-size: 4rem !important; text-align: center !important; color: #000 !important; margin-bottom: 5rem !important;}"
       ],
       "settings": {
         "title": "Best Seller",
@@ -155,7 +155,7 @@
     "featured_collection_GHFUdp": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-size: 4rem !important; text-align: center !important; color: #000 !important; font-family: \"Playfair Display\", serif !important; margin-bottom: 5rem !important;}"
+        "h2 {font-size: 4rem !important; text-align: center !important; color: #000 !important; margin-bottom: 5rem !important;}"
       ],
       "settings": {
         "title": "Featured products",
