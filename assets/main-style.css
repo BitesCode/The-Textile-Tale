@@ -664,8 +664,38 @@ a#cart-notification-button {
     font-weight: 700;
 }
 
+.contact__button button.button {
+    background-color: #eda323 !important;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.contact__button button.button::after,
+.contact__button button.button::before {
+    display: none;
+}
+
 
 /* about us page  */
+
+
+/* contact us page  */
+
+.page-width.page-width--narrow.section-template--21599014813982__main-padding {
+    display: none;
+}
+
+.contact.page-width {
+    box-shadow: 0px 0px 10px 0px #99999966;
+    padding: 2.5rem;
+    margin: 1.5rem;
+    color: #000;
+    border-radius: 8px;
+    background: bottom;
+}
+
+
+/* contact us page  */
 
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw::after,
 button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw::before {
