@@ -186,7 +186,7 @@
             </label>
           </div>
 
-          <a href="#recover">
+          <a data-bs-toggle="modal" data-bs-target="#exampleModal">
             {{ 'customer.login_page.forgot_password' | t }}
           </a>
         {%- endif -%}
@@ -223,6 +223,16 @@
       {%- endform -%}
     </div>
   {%- endif -%}
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+       ... 
+      </div>
+    </div>
+  </div>
 </div>
 
 {% schema %}
