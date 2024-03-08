@@ -1,4 +1,4 @@
-:root {
+    :root {
     --primary-color: #EDA323;
     --dark-color: #000;
     --white-color: #fff;
@@ -679,6 +679,7 @@ a#cart-notification-button {
 .contact-us .col-md-6.col-12.left-section h1.title {
     font-weight: 700;
     margin: 1.6rem 0;
+    position: relative;
 }
 
 .contact-us .right-content h1.small-heading {
@@ -700,140 +701,123 @@ a#cart-notification-button {
     padding: 0 6rem;
 }
 
-
-/* about us page  */
-
-
-/* contact us page  */
-
-.page-width.page-width--narrow.section-template--21599014813982__main-padding {
-    display: none;
-}
-
-.contact.page-width {
-    box-shadow: 0px 0px 10px 0px #99999966;
-    padding: 2.5rem;
-    margin: 1.5rem;
-    color: #000;
-    border-radius: 8px;
-    background: bottom;
-}
-
-
-/* contact us page  */
-
-button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw::after,
-button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw::before {
-    display: none;
-}
-
-button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw {
-    background: #eda323;
-    border-radius: 100px;
-}
-
-button#ProductSubmitButton-template--21599014945054__main::after,
-button#ProductSubmitButton-template--21599014945054__main::before {
-    border-radius: 100px;
-}
-
-footer.footer-section {
-    background: var(--primary-color);
-    padding: 4.5rem;
-    color: #fff;
-}
-
-h3.footer-heading {
-    font-size: 1.5rem;
-}
-
-ul.footer-links {
-    list-style: none;
-    padding: 0;
-}
-
-ul.footer-links li {
-    margin: 1rem 0;
-}
-
-ul.footer-links i {
-    color: #fff;
-    margin-right: 0.8rem;
-}
-
-ul.footer-links a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.footer__copyright.caption {
-    color: #fff;
-}
-
-.footer-block__details-content.footer-block-image.center {
-    justify-content: start;
-}
-
-ul.list-unstyled.list-social.footer__list-social {
-    justify-content: start;
-}
-
-li.list-social__item {
-    background: #fff;
-    border-radius: 100px;
-    margin: 0.3rem;
-}
-
-small.copyright__content:nth-child(2) a {
-    display: none;
-}
-
-a.link.list-social__link {
-    color: #eda323 !important;
-    padding: 0.3rem;
-}
-
-h2.footer-block__heading.inline-richtext {
-    position: relative;
-}
-
-.footer__blocks-wrapper h2.footer-block__heading.inline-richtext::after {
+.contact-us .col-md-6.col-12.left-section h1.title span {
     content: '';
-    background: #fff;
+    background: #eda323;
     width: 32%;
     height: 1.5px;
     position: absolute;
     bottom: -12px;
     left: 0;
-}
-
-@media only screen and (max-width: 768px) {
-    .btn-primary {
-        padding: 0.7rem 1rem;
+    /* about us page  */
+    /* contact us page  */
+    .page-width.page-width--narrow.section-template--21599014813982__main-padding {
+        display: none;
     }
-    .carousel-caption h5 {
-        font-size: 1.7rem;
+    .contact.page-width {
+        box-shadow: 0px 0px 10px 0px #99999966;
+        padding: 2.5rem;
+        margin: 1.5rem;
+        color: #000;
+        border-radius: 8px;
+        background: bottom;
     }
-    .card.left-card-product .row.align-items-center {
-        gap: 3rem;
+    /* contact us page  */
+    button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw::after,
+    button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw::before {
+        display: none;
     }
-    .card.my-3.testimonial-card>div>.col-md-2 {
-        display: flex;
-        justify-content: center;
+    button.shopify-payment-button__button.shopify-payment-button__button--unbranded.BUz42FHpSPncCPJ4Pr_f.jjzYeefyWpPZLH9pIgyw.RWJ0IfBjxIhflh4AIrUw {
+        background: #eda323;
+        border-radius: 100px;
     }
-    p.testimonial-text {
-        font-size: 2rem;
-        text-align: center;
+    button#ProductSubmitButton-template--21599014945054__main::after,
+    button#ProductSubmitButton-template--21599014945054__main::before {
+        border-radius: 100px;
     }
-    p.testimonial-name {
-        text-align: center;
+    footer.footer-section {
+        background: var(--primary-color);
+        padding: 4.5rem;
+        color: #fff;
     }
-    .customer.login .left-login-form {
-        margin-bottom: 3rem;
-        padding: 2rem;
+    h3.footer-heading {
+        font-size: 1.5rem;
     }
-    .pagination__list {
-        justify-content: center !important;
+    ul.footer-links {
+        list-style: none;
+        padding: 0;
     }
-}
+    ul.footer-links li {
+        margin: 1rem 0;
+    }
+    ul.footer-links i {
+        color: #fff;
+        margin-right: 0.8rem;
+    }
+    ul.footer-links a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    .footer__copyright.caption {
+        color: #fff;
+    }
+    .footer-block__details-content.footer-block-image.center {
+        justify-content: start;
+    }
+    ul.list-unstyled.list-social.footer__list-social {
+        justify-content: start;
+    }
+    li.list-social__item {
+        background: #fff;
+        border-radius: 100px;
+        margin: 0.3rem;
+    }
+    small.copyright__content:nth-child(2) a {
+        display: none;
+    }
+    a.link.list-social__link {
+        color: #eda323 !important;
+        padding: 0.3rem;
+    }
+    h2.footer-block__heading.inline-richtext {
+        position: relative;
+    }
+    .footer__blocks-wrapper h2.footer-block__heading.inline-richtext::after {
+        content: '';
+        background: #fff;
+        width: 32%;
+        height: 1.5px;
+        position: absolute;
+        bottom: -12px;
+        left: 0;
+    }
+    @media only screen and (max-width: 768px) {
+        .btn-primary {
+            padding: 0.7rem 1rem;
+        }
+        .carousel-caption h5 {
+            font-size: 1.7rem;
+        }
+        .card.left-card-product .row.align-items-center {
+            gap: 3rem;
+        }
+        .card.my-3.testimonial-card>div>.col-md-2 {
+            display: flex;
+            justify-content: center;
+        }
+        p.testimonial-text {
+            font-size: 2rem;
+            text-align: center;
+        }
+        p.testimonial-name {
+            text-align: center;
+        }
+        .customer.login .left-login-form {
+            margin-bottom: 3rem;
+            padding: 2rem;
+        }
+        .pagination__list {
+            justify-content: center !important;
+        }
+    }
