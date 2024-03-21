@@ -13,12 +13,12 @@
             "slide_link": "shopify:\/\/collections\/all"
           }
         },
-        "column_abggXz": {
+        "column_4BfNwP": {
           "type": "column",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/ttt_banner_5.jpg",
-            "slide_title": "Mehfil-e-Shaam",
-            "slide_subtext": "Indulge in the luxurious charm of Mehfil-e-Shaam, meticulously designed to adorn you with unparalleled elegance during evening soirées and special gatherings. These exquisite sarees boast intricate embroidery, each thread meticulously woven to create a tapestry of opulence and refinement. With their lavish embellishments and premium aesthetics, Mehfil-e-Shaam sarees effortlessly elevate your ensemble, ensuring you stand out with grace and sophistication at every occasion. Embrace the allure of the evening with Mehfil-e-Shaam sarees, where each drape tells a story of timeless elegance and refined beauty.",
+            "slide_image": "shopify:\/\/shop_images\/ttt-banner-7.jpg",
+            "slide_title": "Vintage Varanasi",
+            "slide_subtext": "Step into a realm of timeless elegance and cultural opulence with Vintage Varanasi, where every intricately woven thread whispers tales of a rich heritage steeped in tradition and grandeur. This luxurious saree transcends mere fabric; it's a masterpiece that encapsulates the essence of Varanasi's illustrious legacy. Crafted for special occasions and soirées, each fold of Vintage Varanasi drapes you in the splendour of centuries-old craftsmanship and the allure of a bygone era. Prepare to be enveloped in the grace and sophistication of Varanasi's heritage, elegantly woven into every stitch of this premium segment masterpiece.",
             "slide_link": "shopify:\/\/collections"
           }
         },
@@ -31,15 +31,6 @@
             "slide_link": "shopify:\/\/collections\/lanes-of-lucknow"
           }
         },
-        "column_p7Rh4D": {
-          "type": "column",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/ttt-banner4.jpg",
-            "slide_title": "Jewels of Jaipur",
-            "slide_subtext": "Step into the enchanting world of Jaipur's cultural heritage with Jewels of Jaipur sarees, adorned in the captivating Ajrak print. These sarees offer a perfect blend of traditional charm and contemporary flair, making them ideal for casual wear. The intricate Ajrak patterns, with their vibrant hues and intricate designs, echo the rich tapestry of Jaipur's artistic legacy. Whether you're wandering through the bustling streets of your city or attending a relaxed gathering with friends, Jewels of Jaipur ensures you exude effortless elegance and timeless sophistication. Embrace the opulence of Jaipur's heritage with Jewels of Jaipur sarees, where every piece is a tribute to the city's enduring beauty and cultural richness.",
-            "slide_link": "shopify:\/\/collections\/jewels-of-jaipur"
-          }
-        },
         "column_EXhkmX": {
           "type": "column",
           "settings": {
@@ -49,23 +40,32 @@
             "slide_link": "shopify:\/\/collections\/kolkata-kotha"
           }
         },
-        "column_4BfNwP": {
+        "column_p7Rh4D": {
           "type": "column",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/ttt-banner-7.jpg",
-            "slide_title": "Vintage Varanasi",
-            "slide_subtext": "Step into a realm of timeless elegance and cultural opulence with Vintage Varanasi, where every intricately woven thread whispers tales of a rich heritage steeped in tradition and grandeur. This luxurious saree transcends mere fabric; it's a masterpiece that encapsulates the essence of Varanasi's illustrious legacy. Crafted for special occasions and soirées, each fold of Vintage Varanasi drapes you in the splendour of centuries-old craftsmanship and the allure of a bygone era. Prepare to be enveloped in the grace and sophistication of Varanasi's heritage, elegantly woven into every stitch of this premium segment masterpiece.",
+            "slide_image": "shopify:\/\/shop_images\/ttt-banner4.jpg",
+            "slide_title": "Jewels of Jaipur",
+            "slide_subtext": "Step into the enchanting world of Jaipur's cultural heritage with Jewels of Jaipur sarees, adorned in the captivating Ajrak print. These sarees offer a perfect blend of traditional charm and contemporary flair, making them ideal for casual wear. The intricate Ajrak patterns, with their vibrant hues and intricate designs, echo the rich tapestry of Jaipur's artistic legacy. Whether you're wandering through the bustling streets of your city or attending a relaxed gathering with friends, Jewels of Jaipur ensures you exude effortless elegance and timeless sophistication. Embrace the opulence of Jaipur's heritage with Jewels of Jaipur sarees, where every piece is a tribute to the city's enduring beauty and cultural richness.",
+            "slide_link": "shopify:\/\/collections\/jewels-of-jaipur"
+          }
+        },
+        "column_abggXz": {
+          "type": "column",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/ttt_banner_5.jpg",
+            "slide_title": "Mehfil-e-Shaam",
+            "slide_subtext": "Indulge in the luxurious charm of Mehfil-e-Shaam, meticulously designed to adorn you with unparalleled elegance during evening soirées and special gatherings. These exquisite sarees boast intricate embroidery, each thread meticulously woven to create a tapestry of opulence and refinement. With their lavish embellishments and premium aesthetics, Mehfil-e-Shaam sarees effortlessly elevate your ensemble, ensuring you stand out with grace and sophistication at every occasion. Embrace the allure of the evening with Mehfil-e-Shaam sarees, where each drape tells a story of timeless elegance and refined beauty.",
             "slide_link": "shopify:\/\/collections"
           }
         }
       },
       "block_order": [
         "beb36554-dcf5-4003-9206-9f7c78cd46a5",
-        "column_abggXz",
+        "column_4BfNwP",
         "column_wnXfLk",
-        "column_p7Rh4D",
         "column_EXhkmX",
-        "column_4BfNwP"
+        "column_p7Rh4D",
+        "column_abggXz"
       ],
       "settings": {
       }
