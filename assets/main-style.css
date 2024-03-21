@@ -151,21 +151,43 @@ a.navbar-brand {
 
 .carousel-caption h5 {
     color: #fff;
-    font-size: 3.5rem;
-    word-wrap: break-word;
-    width: 50rem;
-    margin-bottom: 1.2rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
 }
 
 .carousel-caption p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #fff;
+    text-align: left;
 }
 
 .carousel-indicators [data-bs-target] {
     margin-right: -3px;
     margin-left: 3px;
     transition: opacity .6s ease-in-out;
+}
+
+.has-banner-content {
+    width: 100%;
+    display: flex;
+    padding: 3.5rem;
+    align-items: end;
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+}
+
+.heading-wt-content {
+    background: #00000069;
+    padding: .9rem;
+    flex-basis: 65%;
+}
+
+a.banner-button {
+    display: flex;
+    justify-content: end;
+    flex-basis: 35%;
 }
 
 .custome-gap {
