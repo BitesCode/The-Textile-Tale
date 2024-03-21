@@ -871,6 +871,24 @@ header .list-menu__item {
     .btn-primary {
         padding: 0.7rem 1rem;
     }
+    .carousel-caption {
+        position: relative;
+        background: #f0b146;
+    }
+    .has-banner-content {
+        width: 100%;
+        display: flex;
+        padding: 0rem;
+        align-items: center;
+        position: relative;
+        bottom: 13px;
+        left: 0;
+        flex-direction: column;
+    }
+    .heading-wt-content {
+        background: #00000000;
+        flex-basis: 100%;
+    }
     .carousel-caption h5 {
         font-size: 1.7rem;
     }
