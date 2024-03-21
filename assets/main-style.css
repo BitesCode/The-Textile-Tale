@@ -913,4 +913,10 @@ header .list-menu__item {
     .pagination__list {
         justify-content: center !important;
     }
+    .page-width.page-width--narrow.section-template--21599015010590__main-padding {
+        margin: 1.5rem 0;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 2rem;
+    }
 }
