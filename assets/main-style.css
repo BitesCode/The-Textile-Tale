@@ -190,6 +190,11 @@ a.banner-button {
     flex-basis: 35%;
 }
 
+a.banner-button button.btn.btn-primary {
+    background: transparent;
+    color: #fff;
+}
+
 .custome-gap {
     margin: 5rem auto;
 }
