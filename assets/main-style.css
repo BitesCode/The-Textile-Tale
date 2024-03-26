@@ -147,6 +147,7 @@ a.navbar-brand {
     flex-direction: column;
     background: #00000033;
     gap: .7rem;
+    display: none;
 }
 
 .carousel-caption h5 {
