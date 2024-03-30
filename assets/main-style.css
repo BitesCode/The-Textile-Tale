@@ -921,3 +921,7 @@ header .list-menu__item {
         padding: 0 2rem;
     }
 }
+
+.header__submenu .header__menu-item {
+    font-weight: 400;
+}
