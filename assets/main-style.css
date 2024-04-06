@@ -329,7 +329,7 @@ p.price-text {
 
 .benifits-section h1.title-heading {
     color: #000000;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .card.benifits-card {
@@ -355,13 +355,13 @@ p.price-text {
 
 .card.benifits-card .card-title {
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
 
 .card.benifits-card p.card-text {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .testimonial-section {
@@ -369,7 +369,7 @@ p.price-text {
 }
 
 .testimonial-section h1.title-heading {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .testimonial-section .subtext-heading {
