@@ -116,7 +116,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "New Arrival",
+        "title": "New Arrivals",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -147,7 +147,7 @@
         "h2 {font-size: 4rem !important; text-align: center !important; color: #000 !important; margin-bottom: 5rem !important;}"
       ],
       "settings": {
-        "title": "Best Seller",
+        "title": "Best Sellers",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
