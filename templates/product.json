@@ -54,6 +54,12 @@
             "page": ""
           }
         },
+        "custom_liquid_KkpgmV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"\">"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -75,6 +81,7 @@
         "buy_buttons",
         "custom_liquid_KXXnQg",
         "collapsible_tab_F6cUKK",
+        "custom_liquid_KkpgmV",
         "share",
         "description"
       ],
