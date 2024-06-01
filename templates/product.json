@@ -40,6 +40,7 @@
         },
         "custom_liquid_KXXnQg": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<p style=\"font-size:16px;\">✅ 100% money-back guarantee with 7-days return or exchange.<br>✅ Online payment &amp; cash on delivery.<br>✅ Free shipping in India. Express shipping in 5 - 6 days in India.<br>✅ Shipping worldwide.<\/p>\n<!---->"
           }
@@ -56,6 +57,7 @@
         },
         "custom_liquid_KkpgmV": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0844\/9202\/6142\/files\/Maahishmati_Product_Badge_Icons_1_84750580-c8b1-4b7e-baf2-4916eeb2969a.png?v=1717140067\" width=\"400px\"\/>"
           }
